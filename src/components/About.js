@@ -1,6 +1,5 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'
-import Jumbotron from 'react-bootstrap/Jumbotron'
 
 
 
@@ -11,17 +10,13 @@ import Resume from './img/resume-icon-white.png'
 
 const handleClick = event => {
     event.persist()
-    if (event.target.id === 'github') {
-        window.open('https://github.com/JamesLeggero')
-    } else if (event.target.id === 'linkedin') {
-        window.open('https://www.linkedin.com/in/james-leggero/')
-    }
+    window.open(event.target.id)
 }
 
 export default function About() {
     return (
         <>
-        <h1>About</h1>
+        <h1 className='display-3'>About</h1>
         <Container>
             
         <img  src={NewJML} id='jmlStyles' alt='JML' />
@@ -36,9 +31,11 @@ export default function About() {
             </Container>
 
            
+        <img src={GitHub} className='aboutLink' id='https://github.com/JamesLeggero' onClick={handleClick}  alt='Github'/>
+        <img src={LinkedIn} className='aboutLink' id='https://www.linkedin.com/in/james-leggero/' onClick={handleClick}  alt='LinkedIn' />
+        <a href='/resume'>
         <img src={Resume} className='aboutLink' alt='Resume' />
-        <img src={GitHub} className='aboutLink' id='github' onClick={handleClick}  alt='Github'/>
-        <img src={LinkedIn} className='aboutLink' id='linkedin' onClick={handleClick}  alt='LinkedIn' />
+        </a>
         
         </Container>
         </>

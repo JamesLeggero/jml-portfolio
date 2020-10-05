@@ -2,6 +2,9 @@
 
 * {
   background-color: rgb(46, 46, 46);
+  font-family: 'Major Mono Display', monospace;
+  color: whitesmoke
+
 }
 
 #jmlStyles {
@@ -20,6 +23,12 @@
   cursor: pointer
 }
 
+iframe {
+  height: 1325px;
+  width: 850px;
+  margin: 0 auto
+}
+
 
 .container {
   padding: 50px;
@@ -32,23 +41,46 @@
   width: 500px
 }
 
-
-
-h1, h2, h5, p {
-  font-family: 'Major Mono Display', monospace;
-  color: whitesmoke
+header {
+  margin-bottom: 135px;
 }
+
+.landingLinkContainer{
+  text-decoration: none;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.landingLinks:hover {
+  text-decoration: none;
+}
+
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  margin: 0
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    sans-serif; */
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
-code {
+@media (max-width: 500px) {
+  .landingLinks {
+    flex-direction: column;
+  }
+  .display-3 {
+    font-size: 20px;
+  }
+  .navbar > .brand {
+    font-size: 1em;
+  }
+  
+}
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */

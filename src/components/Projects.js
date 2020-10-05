@@ -13,7 +13,7 @@ export default function Projects() {
     }
     return (
         <>
-        <h1>pRojects</h1>
+        <h1 className='display-3'>pRojects</h1>
 
         <Container>
 
@@ -24,19 +24,19 @@ export default function Projects() {
             </Container>
 
             <Container>
-            <h2 className='projects' id='https://jamesleggero.github.io/pizzafreak/' onClick={handleClick}>monkey mAniA</h2>
+            <h2 className='projects' id='https://monkey-mania.herokuapp.com/' onClick={handleClick}>monkey mAniA</h2>
             <h5>mern, bulma</h5>
             <p>explore the world of banana-style modular synthesizers</p>
             </Container>
 
             <Container>
-            <h2 className='projects' id='https://jamesleggero.github.io/pizzafreak/' onClick={handleClick}>HARVARd ARt MuseuM</h2>
+            <h2 className='projects' id='https://harvard-art-museum.herokuapp.com/' onClick={handleClick}>HARVARd ARt MuseuM</h2>
             <h5>harvard art museum api, mern, bootstrap</h5>
             <p>curate a collection of your favorite art pieces</p>
             </Container>
 
             <Container>
-            <h2 className='projects' id='https://jamesleggero.github.io/pizzafreak/' onClick={handleClick}>coffeetAlk</h2>
+            <h2 className='projects' id='https://jml-coffeetalk-client.herokuapp.com/' onClick={handleClick}>coffeetAlk</h2>
             <h5>socket.io, webrtc, openweather api, textmagic api, mern, bootstrap</h5>
             <p>video chat in real time with international coffee farmers</p>
             </Container>
