@@ -1,14 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Container from 'react-bootstrap/Container'
 import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed'
+import { Document, Page, pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+const JML_Resume = require('./JML_Resume.pdf')
+
 
 export default function Resume() {
+
+    const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+ 
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
+
     return (
         <>
         <h1 className='display-3'>Resumé</h1>
         <Container>
             <ResponsiveEmbed>
-        <iframe title='James Leggero Resumé' src="https://docs.google.com/document/d/e/2PACX-1vQZzcBGBy-D9YqiWH2yPILNlHBsO-UIFBGbSJiigzrSqvo-fHoh7IGyAQAKol8J4O4m85kGoueMEV2J/pub?embedded=true"></iframe>
+                <Document file='./JML_Resume.pdf'>
+                    <Page pageNumber={1} />
+                </Document>
         </ResponsiveEmbed>
         </Container>
         </>
