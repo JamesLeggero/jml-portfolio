@@ -36,11 +36,11 @@ export default function Projects() {
             <p>curate a collection of<br />your favorite art pieces</p>
             </Container>
 
-            <Container>
+            {/* <Container>
             <h2 className='projects' id='https://monkey-mania.herokuapp.com/' onClick={handleClick}>Monkey MAniA</h2>
             <h5>mern, bulma</h5>
             <p>explore the world of<br />banana-style modular synthesizers</p>
-            </Container>
+            </Container> */}
             </>
 }
 

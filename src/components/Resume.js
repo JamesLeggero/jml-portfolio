@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Container from 'react-bootstrap/Container'
 import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed'
 import {Document, Page, pdfjs} from "react-pdf";
-import JML_Resume from './JML_Resume.pdf'
+import JML_Resume from './JML_Resume_UL.pdf'
 
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
