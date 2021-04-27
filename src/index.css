@@ -95,13 +95,21 @@ body {
     font-size: 1em;
   }
 
-  .res-container {
+  #jmlStyles {
+    width: 80%
+  }
+
+  .aboutLink {
+    margin: 20px
+  }
+
+  /* .res-container {
     width: 90vw
   }
 
   embed {
     width: 300px
-  }
+  } */
   
 }
 
