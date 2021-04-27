@@ -88,15 +88,39 @@ body {
   -moz-osx-font-smoothing: grayscale; */
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
 
   .landingLinkContainer {
+    margin: 0 auto;
     
     flex-direction: column;
   }
 
   .landingLinks {
     margin: 15px
+  }
+
+  #giant-proj-container {
+    border: 1px solid gold;
+    width: 100vw;
+    padding: 0
+    
+  }
+
+  
+
+  .proj-container > h2 {
+    /* color: violet; */
+    font-size: large;
+  }
+
+  .proj-container > h5 {
+    /* color: yellow; */
+    font-size: small;
+  }
+
+  .projects {
+    font: smaller;
   }
 
   .display-3 {
@@ -115,7 +139,7 @@ body {
   }
 
   p {
-    font-size: smaller;
+    font-size: x-small;
   }
   
 }

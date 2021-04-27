@@ -10,11 +10,11 @@ export default function Projects() {
     }
     return (
         <>
-        <h1 className='display-4'>pRojects</h1>
+        <h1 className='display-5'>pRojects</h1>
         <p>written with html/css/javascript<br />
         + listed additional technologies</p>
 
-        <Container>
+        <Container id='giant-proj-container'>
         
         
             <Container className='proj-container'>
