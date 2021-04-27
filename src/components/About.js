@@ -7,6 +7,7 @@ import NewJML from './img/NewJML.png'
 import LinkedIn from './img/LI-In-Bug.png'
 import GitHub from './img/GitHub-Mark-Light-120px-plus.png'
 import ResumeIcon from './img/resume-icon-white.png'
+import JML_Resume from './JML_Resume_UL.pdf'
 
 const handleClick = event => {
     event.persist()
@@ -33,9 +34,12 @@ export default function About() {
            
         <img src={GitHub} className='aboutLink' id='https://github.com/JamesLeggero' onClick={handleClick}  alt='Github'/>
         <img src={LinkedIn} className='aboutLink' id='https://www.linkedin.com/in/james-leggero/' onClick={handleClick}  alt='LinkedIn' />
-        <a href='/resume'>
-        <img src={ResumeIcon} className='aboutLink' alt='Resume' />
+        <a href={JML_Resume} download='JML Resumé' >
+        <img src={ResumeIcon} className='aboutLink' alt='ResumeIcon' />
         </a>
+        {/* <a href='/resume'>
+        <img src={ResumeIcon} className='aboutLink' alt='Resume' />
+        </a> */}
         
         </Container>
         </>

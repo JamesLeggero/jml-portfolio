@@ -83,7 +83,8 @@ body {
   -moz-osx-font-smoothing: grayscale; */
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
+
   .landingLinks {
     flex-direction: column;
   }
@@ -93,6 +94,14 @@ body {
   .navbar > .brand {
     font-size: 1em;
   }
+
+  .res-container {
+    width: 90vw
+  }
+
+  embed {
+    width: 300px
+  }
   
 }
 
@@ -101,11 +110,3 @@ body {
     monospace;
 } */
 
-@media (max-width: 600px) {
-  * {
-    font-size: 10px;
-  }
-  #jmlStyles {
-    width: 250px;
-  }
-}
