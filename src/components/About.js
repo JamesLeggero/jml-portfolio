@@ -18,7 +18,7 @@ export default function About() {
     return (
         <>
         <h1 className='display-4'>About</h1>
-        <Container>
+        <div>
             
         <img  src={NewJML} id='jmlStyles' alt='JML' />
         
@@ -41,7 +41,7 @@ export default function About() {
         <img src={ResumeIcon} className='aboutLink' alt='Resume' />
         </a> */}
         
-        </Container>
+        </div>
         </>
     ) 
 }
