@@ -22,14 +22,14 @@ export default function About() {
             
         <img  src={NewJML} id='jmlStyles' alt='JML' />
         
-            <Container className='aboutText'>
+            <div className='aboutText'>
 
             <p>i’m a deeply-focused, behind-the-scenes software engineer and web developer.</p>
 
             <p> i have both the technical skills to conceptualize and deploy sophisticated full-stack software as well as the communication skills to draw out the real needs of my clients and peers in a meaningful, harmonious way.</p>
 
             <p> together, we can make the best, most personal version of your product. </p>
-            </Container>
+            </div>
 
            
         <img src={GitHub} className='aboutLink' id='https://github.com/JamesLeggero' onClick={handleClick}  alt='Github'/>
