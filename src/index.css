@@ -20,7 +20,12 @@
 }
 
 .projects {
-  cursor: pointer
+  cursor: pointer;
+}
+
+.proj-container {
+  /* border: 1px solid gold; */
+  margin: -30px 0
 }
 
 .iex {
@@ -109,13 +114,9 @@ body {
     margin: 20px
   }
 
-  /* .res-container {
-    width: 90vw
+  p {
+    font-size: smaller;
   }
-
-  embed {
-    width: 300px
-  } */
   
 }
 

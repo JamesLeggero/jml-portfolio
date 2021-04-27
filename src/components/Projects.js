@@ -10,40 +10,40 @@ export default function Projects() {
     }
     return (
         <>
-        <h1 className='display-3'>pRojects</h1>
+        <h1 className='display-4'>pRojects</h1>
         <p>written with html/css/javascript<br />
         + listed additional technologies</p>
 
         <Container>
         
         
-            <Container>
+            <Container className='proj-container'>
             <h2 className='projects' id='https://jml-thus.herokuapp.com/' onClick={handleClick}>tHus</h2>
-            <h5>react, node, postgres, sequelize, sql</h5>
+            <h5>react, node, postgres, sequelize</h5>
             <p>stock tips based on sentiment<br />analysis of tarot readings</p>
             <h6 className='iex'>stock data courtesy of iex cloud</h6>
             </Container>
 
-            <Container>
+            <Container className='proj-container'>
             <h2 className='projects' id='https://jml-coffeetalk-client.herokuapp.com/' onClick={handleClick}>coffeetAlk</h2>
             <h5>socket.io, webrtc, openweather,</h5><h5>textmagic, mern, bootstrap</h5>
             <p>video chat in real time with<br/>
                 international coffee farmers</p>
             </Container>
 
-            <Container>
+            <Container className='proj-container'>
             <h2 className='projects' id='https://jamesleggero.github.io/pizzafreak/' onClick={handleClick}>piZZAfReAk</h2>
             <h5>jquery</h5>
             <p>construct pizzas based on<br />customers' favorite toppings</p>
             </Container>
 
-            <Container>
+            <Container className='proj-container'>
             <h2 className='projects' id='https://harvard-art-museum.herokuapp.com/' onClick={handleClick}>HARVARd ARt MuseuM</h2>
-            <h5>harvard art museum api,</h5><h5>mern, bootstrap</h5>
+            <h5>h. art museum api,</h5><h5>mern, bootstrap</h5>
             <p>curate a collection of<br />your favorite art pieces</p>
             </Container>
 
-            <Container>
+            <Container className='proj-container'>
             <h2 className='projects' id='https://www.thrashdeposit.com/' onClick={handleClick}>tHRAsH deposit</h2>
             <p>comissioned homepage for<br />nyc-based punk band</p>
             </Container>
