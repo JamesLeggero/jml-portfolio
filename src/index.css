@@ -85,9 +85,15 @@ body {
 
 @media (max-width: 800px) {
 
-  .landingLinks {
+  .landingLinkContainer {
+    
     flex-direction: column;
   }
+
+  .landingLinks {
+    margin: 15px
+  }
+
   .display-3 {
     font-size: 20px;
   }
