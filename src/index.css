@@ -138,6 +138,10 @@ body {
     margin: 20px
   }
 
+  .aboutText {
+    margin: 0 auto;
+  }
+
   p {
     font-size: x-small;
   }
