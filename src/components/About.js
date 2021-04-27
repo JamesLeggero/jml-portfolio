@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 import NewJML from './img/NewJML.png'
 import LinkedIn from './img/LI-In-Bug.png'
 import GitHub from './img/GitHub-Mark-Light-120px-plus.png'
-import Resume from './img/resume-icon-white.png'
+import ResumeIcon from './img/resume-icon-white.png'
 
 const handleClick = event => {
     event.persist()
@@ -34,7 +34,7 @@ export default function About() {
         <img src={GitHub} className='aboutLink' id='https://github.com/JamesLeggero' onClick={handleClick}  alt='Github'/>
         <img src={LinkedIn} className='aboutLink' id='https://www.linkedin.com/in/james-leggero/' onClick={handleClick}  alt='LinkedIn' />
         <a href='/resume'>
-        <img src={Resume} className='aboutLink' alt='Resume' />
+        <img src={ResumeIcon} className='aboutLink' alt='Resume' />
         </a>
         
         </Container>
