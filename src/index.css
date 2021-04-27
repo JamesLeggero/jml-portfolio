@@ -141,9 +141,10 @@ body {
   .aboutText {
     float: none;
     
-    /* margin: 0;
-    padding: 0 */
-    border: 1px solid gold;
+    margin: 0 auto;
+    padding: 10px 5px;
+    
+    border: 1px solid violet;
   }
 
   p {
