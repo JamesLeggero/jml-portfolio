@@ -15,9 +15,16 @@ export default function Projects() {
         + listed additional technologies</p>
 
         <Container>
-        {
-        <>
-        <Container>
+        
+        
+            <Container>
+            <h2 className='projects' id='https://jml-thus.herokuapp.com/' onClick={handleClick}>tHus</h2>
+            <h5>react, node, postgres, sequelize, sql</h5>
+            <p>stock tips based on sentiment<br />analysis of tarot readings</p>
+            <h6 className='iex'>stock data courtesy of iex cloud</h6>
+            </Container>
+
+            <Container>
             <h2 className='projects' id='https://jml-coffeetalk-client.herokuapp.com/' onClick={handleClick}>coffeetAlk</h2>
             <h5>socket.io, webrtc, openweather,</h5><h5>textmagic, mern, bootstrap</h5>
             <p>video chat in real time with<br/>
@@ -36,13 +43,18 @@ export default function Projects() {
             <p>curate a collection of<br />your favorite art pieces</p>
             </Container>
 
+            <Container>
+            <h2 className='projects' id='https://www.thrashdeposit.com/' onClick={handleClick}>tHRAsH deposit</h2>
+            <p>comissioned homepage for<br />nyc-based punk band</p>
+            </Container>
+
             {/* <Container>
             <h2 className='projects' id='https://monkey-mania.herokuapp.com/' onClick={handleClick}>Monkey MAniA</h2>
             <h5>mern, bulma</h5>
             <p>explore the world of<br />banana-style modular synthesizers</p>
             </Container> */}
-            </>
-}
+            
+
 
             </Container>
         

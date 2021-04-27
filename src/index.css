@@ -23,6 +23,10 @@
   cursor: pointer
 }
 
+.iex {
+  font-size: 10px;
+}
+
 iframe {
   height: 1325px;
   width: 850px;
