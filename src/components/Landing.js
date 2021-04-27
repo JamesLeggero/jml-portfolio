@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 export default function Landing() {
     return (
         <>
-        <h1 className='cha display-3'>jAMes leGGeRo</h1>
+        <h1 className='cha display-4'>jAMes leGGeRo</h1>
         <Container className='landingLinkContainer'>
             <a className='landingLinks' href='/projects'>
                 <h2>pRojects</h2>

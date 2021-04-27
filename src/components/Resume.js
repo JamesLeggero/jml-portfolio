@@ -18,23 +18,17 @@ export default function Resume() {
   // }
 
     return (
-        <>
-        <h1 className='display-3'>Resumé</h1>
+      <>
+      <h1 className='display-3'>Resumé</h1>
+        <div className='res-container'>
+        <embed src={JML_Resume} alt='JML Resumé' />
 
-        {/* {//works:}
-        <object data={JML_Resume} type="application/pdf" width="60%" height="1100px">
-          <p>Resume</p>
-          </object> */}
+        
 
-          <iframe src={JML_Resume} title='JML_Resume' />
+          {/* <iframe src={JML_Resume} title='JML_Resume' /> */}
        
-        {/* <Container>
-            <ResponsiveEmbed>
-                <Document file={JML_Resume}>
-                    <Page pageNumber={1} />
-                </Document>
-        </ResponsiveEmbed>
-        </Container> */}
+        
+        </div>
         </>
     )
 }
