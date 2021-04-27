@@ -101,7 +101,7 @@ body {
   }
 
   #giant-proj-container {
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     width: 100vw;
     padding: 0
     
@@ -139,7 +139,8 @@ body {
   }
 
   .aboutText {
-    margin: 0 auto;
+    float: none;
+    /* border: 1px solid gold; */
   }
 
   p {

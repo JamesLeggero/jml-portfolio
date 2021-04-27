@@ -17,7 +17,7 @@ const handleClick = event => {
 export default function About() {
     return (
         <>
-        <h1 className='display-3'>About</h1>
+        <h1 className='display-4'>About</h1>
         <Container>
             
         <img  src={NewJML} id='jmlStyles' alt='JML' />
